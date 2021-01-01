@@ -1,14 +1,20 @@
-Lecture Notes:
+# Variables, Types, and Console I/O
+
+## Running code in the terminal
 
 Run the our program by typing 
 
     python main.py
+
+## Printing to the console and Reading console input
 
 print() can be called to have Python output to the terminal/console
 
 Strings of text in python are surrouned by quotes " "
 
 input() can be called to read typed input from the console/terminal
+
+## Variable Assignment
 
 In python, '=' is the assignment operator. It is used to assign a value to a variable.
 Example: 
@@ -19,7 +25,8 @@ You can assign a string of text in python to a variable
 
     myString = "a string of text"
 
-Exmaples:
+### Examples
+
 -Print a string of text
 
     print("Hello World")
@@ -40,15 +47,15 @@ Exmaples:
 
     usersName = input("Please enter your first name: ")
 
-*Basic Operators in Python*
+**Basic Operators in Python**
 +, -, *, /, <, >, ==, !=, <=, >=, =
 
-**Beware the difference between the '=' operator and the '==' operator
+**Beware the difference between the '=' operator and the '==' operator**
 
 '==' is the equality operator (asks the question "Are two values equal?")
 '=' is the assignment operator (assign a value to a variable)
 
-Advanced LINKS
+### Advanced LINKS
 
 Python first steps (numbers, strings, lists)
     https://docs.python.org/3/tutorial/introduction.html#numbers
