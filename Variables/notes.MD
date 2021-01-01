@@ -47,11 +47,13 @@ You can also assign a string of text in python to a variable
     usersName = input("Please enter your first name: ")
 
 **Basic Operators in Python**
+
 +, -, *, /, <, >, ==, !=, <=, >=, =
 
 **Beware the difference between the '=' operator and the '==' operator**
 
 '==' is the equality operator (asks the question "Are two values equal?")
+
 '=' is the assignment operator (assign a value to a variable)
 
 ### Advanced LINKS
