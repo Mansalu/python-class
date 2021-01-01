@@ -46,11 +46,11 @@ We can use 'else' to run some different code if the condition is false
     else:
         # Do a different thing
 
-'else if' is avalable for creating multiple conditions
+Else if (elif in Python) is avalable for creating multiple conditions
 
     if (condtion1):
         # Do something
-    else if (condition2):
+    elif (condition2):
         # Do something different
 
 ## Examples
