@@ -13,10 +13,11 @@ number = int(input("Enter a number: "))
 if (number > 5):
     print("Number is greater than 5")
 
-# Code that is not indented like this will always run
+# Code that is not indented, like this, will always run
 # It is not part of the if "block"
 print("This code will always run")
 
+# An if block can include multiple statements that are executed when the condition is true
 if (number < 5):
     print("Multiple indented statements")
     print("Can be placed inside an if block")
