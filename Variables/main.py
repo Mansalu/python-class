@@ -6,23 +6,15 @@ Name1 = input('Enter a Username: ')
 
 print("Hello " + Name1)
 
+print('The game has begun')
 
-while(True):
-    print('The game has begun')
-    MyStory = 'I was walking my little'
+storySegment1 = 'I was walking my little'
 
-    MyStory2 = 'when I saw another dog'
+storySegment2 = 'when I saw another dog'
 
-    noun = input('Enter a noun: ')
+userNoun = input('Enter a noun: ')
 
-    Verb = input('Enter a Verb: ')
+userVerb = input('Enter a Verb: ')
 
-    print(MyStory,noun,MyStory2,Verb + '.')
-    print('END OF GAME')
-    print('Starting a new game...')
-
-
-
-
-
-
+print(storySegment1,userNoun,storySegment2,userVerb + '.')
+print('END OF GAME')
