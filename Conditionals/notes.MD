@@ -50,7 +50,7 @@ We can use 'else' to run some different code if the condition is false
 
     if (condtion1):
         # Do something
-    else if (condition2)
+    else if (condition2):
         # Do something different
 
 ## Examples
