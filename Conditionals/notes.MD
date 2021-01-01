@@ -52,6 +52,8 @@ Else if (elif in Python) is avalable for creating multiple conditions
         # Do something
     elif (condition2):
         # Do something different
+    elif (condition3)
+        # yet another different action
 
 ## Examples
 
