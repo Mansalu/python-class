@@ -18,9 +18,3 @@ userVerb = input('Enter a Verb: ')
 
 print(storySegment1,userNoun,storySegment2,userVerb + '.')
 print('END OF GAME')
-
-
-
-
-
-
