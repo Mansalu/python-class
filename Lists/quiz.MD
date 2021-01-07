@@ -14,7 +14,7 @@
 # What is the result of executing the following code snippet?
 
     userInput = input("Please enter a number?")
-    if (userInput == 7):
+    if (userInput > 7):
         print("Success")
     else:
         print("Failure")
