@@ -1,6 +1,6 @@
 # Functions
 
-A function is a way to bundle and re-run code. It is usefule for code reuse and preventing code duplication. A function has a name, and a block of code. Most functions have inputs and outputs Functions are defined using the `def` keyword and can return a value with the `return` keyword.
+A function is a way to bundle and re-run code. It is usefule for code reuse and preventing code duplication. A function has a name, and a block of code. Most functions have inputs and outputs. Functions are defined using the `def` keyword and can return a value with the `return` keyword.
 
     def Multiply(a, b):
         return a * b
