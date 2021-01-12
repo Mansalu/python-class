@@ -22,10 +22,4 @@ while (True):
     # as 'Bill' and 'Tip'.
     FinalBill = CalcBill (UserBillInput,TipPercentage)
     print (FinalBill , 'Dollars')
-
-
     
-    
-
-      
-
