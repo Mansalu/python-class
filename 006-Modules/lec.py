@@ -1,3 +1,3 @@
-import math
+import anagrams 
 
-print(math.cos(math.pi))
+print(anagrams.AreAnagrams("hat", "tah"))
