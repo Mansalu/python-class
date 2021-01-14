@@ -7,8 +7,8 @@ print("Testing SolveQuadratic()...")
 print("x^2-5x-14=0 \t \t \t \t Correct:", utilities.SolveQuadratic(1,-5,-14)[0] == -2 
                              and utilities.SolveQuadratic(1,-5,-14)[1] == 7)
 
-print("x^2+15x+50=0 \t \t \t \t Correct:", utilities.SolveQuadratic(1,15,50)[0] == -5 
-                              and utilities.SolveQuadratic(1,15,50)[1] == -10)
+print("x^2+15x+50=0 \t \t \t \t Correct:", utilities.SolveQuadratic(1,15,50)[0] == -10 
+                              and utilities.SolveQuadratic(1,15,50)[1] == -5)
 
 print("12x^2-25x=0 \t \t \t \t Correct:", utilities.SolveQuadratic(12,-25,0)[0] == 0 
                              and utilities.SolveQuadratic(12,-25,0)[1] == (25/12))

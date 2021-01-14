@@ -14,5 +14,6 @@ def AreAnagrams(word1, word2):
     word1Chars.sort()
     word2Chars.sort()
 
-    return word1Chars == word2Chars
+    result = word1Chars == word2Chars
+    return result
 
