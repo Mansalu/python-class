@@ -12,3 +12,17 @@ We can use the `import` statement to add an existing module to our program.
     print(math.cos(math.pi))
 
 In the above example I import the built-in math module, then I access a function `math.cos()` and a variable `math.pi` from the imported module. Notice these definitions aren't part of my source file. The code will simply print the number `1` (the cosine of pi).
+
+## Alias
+
+You can create an alias when you import a module, by using the `as` keyword:
+
+    import math as m
+    print(m.pi)
+
+## Import .. From
+
+You can import a specific thing from a module with the `from` keyword:
+
+    from math import pi
+    print(pi)
