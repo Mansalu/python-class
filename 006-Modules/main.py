@@ -34,3 +34,6 @@ print("Converting 100F to C \t \t \t Correct:", utilities.ConvertFarenheitToCels
                                           utilities.ConvertFarenheitToCelsius(100) < 37.8)
 print("Converting 32F to C \t \t \t Correct:", utilities.ConvertFarenheitToCelsius(32) == 0)
 
+
+
+utilities.SolveQuadratic(c=5, b=1, a=3)

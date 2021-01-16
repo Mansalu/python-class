@@ -20,7 +20,7 @@ far as needed. The constructor is always defined as `__init__()` inside the clas
 takes in the `self` parameter. A reference to the specific object.
 
     class MyClass:
-        __init__(self, data):
+        def __init__(self, data):
             self.data = data
 
 ## Instantiating
