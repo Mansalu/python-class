@@ -29,7 +29,7 @@ The parent class of a child class is also called its **Superclass**. In Python, 
 
     class Student(Person):
         def __init__(self, name, age, genderIdentity, major, GPA):
-            super().__init__(self, name, age, genderIdentity)
+            super().__init__(name, age, genderIdentity)
             self.major = major
             self.GPA = GPA
 
