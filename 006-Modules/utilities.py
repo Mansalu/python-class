@@ -15,7 +15,7 @@ def SolveQuadratic(a, b, c):
 
     0 = ax^2+bx+c
 
-    Also recall the quadratic equation
+    Also recall the quadratic formula
     x = (-b +- sqrt(b^2 -4ac)) / (2a)
     """
     x2 = (-b + math.sqrt(b ** 2 -4*a*c)) / (2*a)
