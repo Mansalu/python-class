@@ -2,7 +2,7 @@
 
 An exception is an event that occurs when the normal execution of a Python program is disrupted. When a Python program encounters a situation that can't be dealt with, it will usually raise an exception.
 
-An exception is a Python object which represents an error. There are many specific built-in Exceptions that we have already seen, such as `NameError` and `SyntaxError`. Specific exceptions should always be derived from the built-in `Exception` base class or another more specific exception type. In fact, exceptions are a fantastic example of inheritance, because they always inherit from `Exception`.
+An exception is a Python object which represents an error. There are many specific built-in Exceptions that we have already seen, such as `NameError` and `SyntaxError`. Specific exceptions should always be derived from the built-in `Exception` base class or another more specific exception type. In fact, exceptions are a fantastic example of inheritance, because they always inherit from `Exception` or a derived class.
 
 ## Handling
 
