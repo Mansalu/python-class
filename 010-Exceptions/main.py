@@ -1,4 +1,4 @@
-# GUI Practice
+# Exceptions -- Continuing our GUI
 
 #Simple two operator calculator.
 
