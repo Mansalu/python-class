@@ -8,3 +8,4 @@ try:
     raise LoganError("Something bad happened")
 except LoganError as e:
     print(e.message)
+
