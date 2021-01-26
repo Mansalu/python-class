@@ -3,6 +3,6 @@
 sampleFile = open("sampleFile.txt", "xt")
 lineNumber = 0
 while (lineNumber < 10):
-    sampleFile.write("line" + str(lineNumber) + "\n")
+    sampleFile.write("line\tnumber\t" + str(lineNumber) + "\n")
     lineNumber += 1
 sampleFile.close()
