@@ -6,8 +6,6 @@
 
 # What can go wrong? (file doesn't exist....anything else?)
 
-<<<<<<< HEAD
-=======
 File2 = open('CFK.txt', 'rt')
 FileContent = File2.read()
 File2.close()
@@ -18,4 +16,3 @@ for line in FileLines:
     val = line.split("\t")[2]
     KelvinValues.append(val)
 print(KelvinValues)
->>>>>>> 797e2e77fb372beefe1f5123ca896e75a075fcf5
