@@ -5,11 +5,12 @@ Some starter code is provided to help parse the file and remove puntuation.
 Think about how you can use a dictionary to solve this problem. We need to store a count
 for every unique word we might enocunter in a text.
 
-What about a dictionary that maps words to a count for that word
+What about a dictionary that maps each word to a count
 
-    {"word" : count}
+    {"word" : 5}
 
 """
+import re
 
 def TopTenWords(text):
     """
@@ -19,7 +20,9 @@ def TopTenWords(text):
     print("Not implemented")
 
 
-# Driver code for reading in a file
+# ==================================================================
+# Driver code
+# ==================================================================
 def main():
     inputText = ""
     # Prompt for a file name in a loop until a valid file is read in
@@ -40,6 +43,14 @@ def main():
         finally:
             # Always close the file
             inputFile.close()
+
+    # Merge words split across lines
+    text = text.replace('-\n', '')
+    # Remove all punctuation
+    text = re.sub("[^\w\s]", '' , text)
+    # Shrink multiple spaces
+    text = re.sub('\s{2,}', ' ', text)
+    text = text.replace('\n', ' ')
     
     # Call *your* function on the input
     TopTenWords(inputText)

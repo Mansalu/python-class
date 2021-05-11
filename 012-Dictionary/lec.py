@@ -14,5 +14,5 @@ studentMajors.update({"amy" : "English"})
 # Let's print this information
 for (name,major) in studentMajors.items():
     print(name, "is a", major, "major")
-
-# Nested Dictionary
+7
+# Nested Dictionarypo
